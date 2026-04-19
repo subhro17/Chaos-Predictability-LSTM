@@ -20,4 +20,4 @@ Hardware: Optimized for NVIDIA GeForce RTX 3050 (CUDA) <br>
 # How to Use
 1. Clone the Repo: https://github.com/subhro17/Chaos-Predictability-LSTM
 2. Install Dependencies: pip install torch numpy  scipy matplotlib pandas scikit-learn
-3. Run the Analysis: Open analysis.ipynb to visualize the trajectories and the fractal stability map.
+3. Run the Analysis: Open source code.ipynb to visualize the trajectories and the fractal stability map.
