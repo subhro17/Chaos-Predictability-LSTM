@@ -11,11 +11,11 @@ Traditional numerical solvers (like Runge-Kutta 4th Order) are computationally e
 1. Temporal Prediction vs. Physical TruthThe model tracks the secondary pendulum link ($\theta_2$) with high fidelity ($R^2 > 0.98$) before reaching the Lyapunov Time threshold (~3.5s), where phase drift naturally occurs.
 2. Phase Space TopologyEven after the temporal prediction diverges, the model remains Topologically Stable. The LSTM traces the correct Chaotic Attractor, proving it has learned the energy constraints of the system.
 # Tech Stack
-Language: Python 3.12 \\
-Deep Learning: PyTorch
-Numerical Computing: NumPy, SciPy
-Visualizations: Matplotlib (with LaTeX formatting)
-Hardware: Optimized for NVIDIA GeForce RTX 3050 (CUDA)
+Language: Python 3.12 <br>
+Deep Learning: PyTorch <br>
+Numerical Computing: NumPy, SciPy <br>
+Visualizations: Matplotlib (with LaTeX formatting) <br>
+Hardware: Optimized for NVIDIA GeForce RTX 3050 (CUDA) <br>
 
 # How to Use
 1. Clone the Repo: https://github.com/subhro17/Chaos-Predictability-LSTM
